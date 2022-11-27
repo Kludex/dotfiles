@@ -1,0 +1,18 @@
+# ~/.zshrc
+
+# Oh My ZSH
+export ZSH="$HOME/.local/share/sheldon/repos/github.com/ohmyzsh/ohmyzsh"
+
+ZSH_THEME="robbyrussell"
+
+plugins=(git)
+
+# Sheldon
+eval "$(sheldon source)"
+bindkey "^R" history-search-multi-word
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
