@@ -20,6 +20,13 @@ github = 'zdharma-continuum/history-search-multi-word'
 [plugins.oh-my-zsh]
 github = 'ohmyzsh/ohmyzsh'
 
+[plugins.zsh-syntax-highlighting]
+github = 'zsh-users/zsh-syntax-highlighting'
+
+[plugins.zsh-autosuggestions]
+github = 'zsh-users/zsh-autosuggestions'
+use = ['{{ name }}.zsh']
+
 # For example:
 #
 # [plugins.base16]
