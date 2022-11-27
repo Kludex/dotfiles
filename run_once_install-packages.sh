@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install Essentials
-sudo apt install build-essential pkg-config libssl-dev curl
+sudo apt install build-essential pkg-config libssl-dev curl gh
 
 # Install Cargo
 curl https://sh.rustup.rs -sSf | sh
