@@ -5,7 +5,7 @@ export ZSH="$HOME/.local/share/sheldon/repos/github.com/ohmyzsh/ohmyzsh"
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git)
+plugins=(git docker-compose)
 
 # Sheldon
 eval "$(sheldon source)"
