@@ -27,6 +27,9 @@ github = 'zsh-users/zsh-syntax-highlighting'
 github = 'zsh-users/zsh-autosuggestions'
 use = ['{{ name }}.zsh']
 
+[plugins.zsh-you-should-use]
+github = 'MichaelAquilina/zsh-you-should-use'
+
 # For example:
 #
 # [plugins.base16]
