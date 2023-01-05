@@ -1,3 +1,5 @@
+command_timeout = 10000
+
 [memory_usage]
 disabled = false
 threshold = -1
