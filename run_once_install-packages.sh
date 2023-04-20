@@ -18,6 +18,7 @@ brew install sheldon
 
 # Install Pyenv (https://github.com/pyenv/pyenv)
 brew install pyenv
+brew install pyenv-virtualenv
 
 # Install Starship (https://starship.rs/)
 cargo install starship --locked
