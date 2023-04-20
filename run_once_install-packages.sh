@@ -11,8 +11,10 @@ source "$HOME/.cargo/env"
 if [ "$(uname)" == "Darwin" ]; then
     brew install cmake
     brew install sheldon
+    brew install pyenv
 else
     cargo install sheldon
+    curl https://pyenv.run | bash
 fi
 
 # Install Starship (https://starship.rs/)
