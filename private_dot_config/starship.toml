@@ -5,3 +5,10 @@ disabled = false
 threshold = -1
 symbol = " "
 style = "bold dimmed green"
+
+[kubernetes]
+format = 'on [⛵ ($user on )($cluster in )$context \($namespace\)](dimmed green) '
+disabled = false
+contexts = [
+  { context_pattern = "dev.local.cluster.k8s", style = "green", symbol = "💔 " },
+]
