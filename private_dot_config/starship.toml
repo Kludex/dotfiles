@@ -9,3 +9,4 @@ style = "bold dimmed green"
 [python]
 detect_extensions = []
 pyenv_version_name = false
+disabled = true
