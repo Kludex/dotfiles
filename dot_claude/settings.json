@@ -145,16 +145,28 @@
       }
     ]
   },
-  "enabledPlugins": {
-    "pyright-lsp@claude-plugins-official": true,
-    "rust-analyzer-lsp@claude-plugins-official": true,
-    "swift-lsp@claude-plugins-official": true,
-    "skill-creator@claude-plugins-official": true
-  },
   "statusLine": {
     "type": "command",
     "command": "~/.claude/statusline.sh"
   },
+  "enabledPlugins": {
+    "pyright-lsp@claude-plugins-official": true,
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "swift-lsp@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "logfire@pydantic-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "pydantic-skills": {
+      "source": {
+        "source": "github",
+        "repo": "pydantic/skills"
+      },
+      "autoUpdate": true
+    }
+  },
+  "effortLevel": "high",
   "alwaysThinkingEnabled": true,
   "skipDangerousModePermissionPrompt": true
 }
