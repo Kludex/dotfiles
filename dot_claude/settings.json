@@ -166,7 +166,9 @@
       "autoUpdate": true
     }
   },
-  "effortLevel": "high",
   "alwaysThinkingEnabled": true,
-  "skipDangerousModePermissionPrompt": true
+  "effortLevel": "high",
+  "tui": "default",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark-ansi"
 }
