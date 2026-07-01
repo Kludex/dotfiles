@@ -21,3 +21,9 @@ cargo install starship --locked
 
 # Install NVM (https://github.com/nvm-sh/nvm)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+
+# Install GitHub CLI (https://cli.github.com/)
+brew install gh
+
+# Install Claude Code (https://docs.claude.com/en/docs/claude-code/setup)
+curl -fsSL https://claude.ai/install.sh | bash
