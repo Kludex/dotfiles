@@ -71,7 +71,7 @@
     ],
     "defaultMode": "dontAsk"
   },
-  "hooks": {
+  "hooks": {{ if eq .chezmoi.os "darwin" }}{
     "PreToolUse": [
       {
         "matcher": "AskUserQuestion",
@@ -144,7 +144,7 @@
         ]
       }
     ]
-  },
+  }{{ else }}{}{{ end }},
   "statusLine": {
     "type": "command",
     "command": "~/.claude/statusline.sh"

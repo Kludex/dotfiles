@@ -27,3 +27,6 @@ brew install gh
 
 # Install Claude Code (https://docs.claude.com/en/docs/claude-code/setup)
 curl -fsSL https://claude.ai/install.sh | bash
+
+# Install peon-ping (https://github.com/PeonPing/peon-ping)
+brew install PeonPing/tap/peon-ping
